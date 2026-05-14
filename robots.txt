@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://officelenovo.github.io/desksetup-guide/sitemap.xml
