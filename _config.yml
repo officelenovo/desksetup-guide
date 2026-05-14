@@ -1,0 +1,30 @@
+title: "DeskSetup Guide"
+description: "Build your perfect home office without overspending"
+baseurl: "/desksetup-guide"
+url: "https://officelenovo.github.io"
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+permalink: /:year/:month/:day/:title/
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "TechPicks Team"
+exclude:
+  - Gemfile.lock
+  - agents/
+  - core/
+  - tests/
+  - data/
+  - logs/
+  - "*.py"
+  - requirements.txt
+  - run.py
+  - setup.sh
+  - .env
+  - .env.example
